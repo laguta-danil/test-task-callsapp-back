@@ -5,7 +5,7 @@ export class Link {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({ length: 1000 })
   body: string;
 
   @Column()

@@ -11,7 +11,6 @@ export const typeORMConfig = {
   password: process.env.SQL_DB_PASSWORD,
   database: process.env.SQL_DB_NAME,
   entities: [Link],
-  migrationsTableName: 'PostRefactoringMigration',
   autoLoadEntities: true,
   synchronize: true,
 };
